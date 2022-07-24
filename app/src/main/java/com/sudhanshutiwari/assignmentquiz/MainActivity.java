@@ -118,40 +118,7 @@ public class MainActivity extends AppCompatActivity {
         questionModelList.add(questionModel10);
     }
 
-//    private void getTopic() {
-//        String[] topics =  {"Java", "Python", "Html", "Cpp", "Android", "Css", "DSA", "Javascript"};
-//        int min = 0, max = 7;
-//        Random random = new Random();
-//        String topicIs = topics[random.nextInt(max - min + 1) + min];
-//        switch (topicIs){
-//            case "Java":
-//               quizImage.setImageResource(R.drawable.java);
-//               break;
-//            case "Javascript":
-//                quizImage.setImageResource(R.drawable.js);
-//                break;
-//            case "Python":
-//                quizImage.setImageResource(R.drawable.python);
-//                break;
-//            case "Css":
-//                quizImage.setImageResource(R.drawable.css);
-//                break;
-//            case "Cpp":
-//                quizImage.setImageResource(R.drawable.cpp);
-//                break;
-//            case "Html":
-//                quizImage.setImageResource(R.drawable.html);
-//                break;
-//            case "DSA":
-//                quizImage.setImageResource(R.drawable.structure);
-//                break;
-//            case "Android":
-//                quizImage.setImageResource(R.drawable.android);
-//                break;
-//        }
-//        selectedTopicTitle.setText("Quiz App - " + topicIs);
-//        questionModelList = QuestionBank.getQuestions(topicIs);
-//    }
+
 
     private void resultActivity() {
         Dialog resultView = new Dialog(MainActivity.this);
